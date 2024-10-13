@@ -485,7 +485,7 @@ header{
 
 .header-btn{
   padding: 1rem 4rem; /* keep this */
-
+  font-size: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), /* Soft shadow *//* keep this */
   0 2px 4px rgba(0, 0, 0, 0.1); /* Slightly darker shadow */ /* keep this *//* keep this */
 }
@@ -588,6 +588,7 @@ footer{
   justify-content: space-around;
   /* flex-wrap: wrap; */
   gap: 2rem; /* Space between boxes */
+  padding-left: 7rem;
 }
 
 .footer-box-1,
@@ -622,11 +623,3 @@ footer{
 
 }
 
-/* ######################
-FIXING BROKEN LINK BTN */
-
-/* @media screen and (max-width: 337px) {
-    .floating-box{
-      position: relative;
-    }
-}  */
